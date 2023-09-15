@@ -1,0 +1,205 @@
+name: learn_me_signs
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  lottie: ^2.6.0
+  flutter_gif: ^0.0.4
+  carousel_slider: ^4.2.1
+  get: ^4.6.5
+  bottom_navy_bar: ^6.0.0
+  google_nav_bar: ^5.0.6
+  flutter_launcher_icons: ^0.13.1
+  rename: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/sign-language .png"  
+  min_sdk_android: 21  
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/AlpaArabic/Alef.jpg
+    - assets/images/AlpaArabic/Ba.jpg
+    - assets/images/AlpaArabic/ta.jpg
+    - assets/images/AlpaArabic/tha.jpg
+    - assets/images/AlpaArabic/gim.jpg
+    - assets/images/AlpaArabic/ha.jpg
+    - assets/images/AlpaArabic/kha.jpg
+    - assets/images/AlpaArabic/dal.jpg
+    - assets/images/AlpaArabic/zal.jpg
+    - assets/images/AlpaArabic/raa.jpg
+    - assets/images/AlpaArabic/zen.jpg
+    - assets/images/AlpaArabic/sen.jpg
+    - assets/images/AlpaArabic/shen.jpg
+    - assets/images/AlpaArabic/sad.jpg
+    - assets/images/AlpaArabic/dadd.jpg
+    - assets/images/AlpaArabic/dah.jpg
+    - assets/images/AlpaArabic/zah.jpg
+    - assets/images/AlpaArabic/aen.jpg
+    - assets/images/AlpaArabic/gen.jpg
+    - assets/images/AlpaArabic/fa.jpg
+    - assets/images/AlpaArabic/af.jpg
+    - assets/images/AlpaArabic/aff.jpg
+    - assets/images/AlpaArabic/lam.jpg
+    - assets/images/AlpaArabic/mem.jpg
+    - assets/images/AlpaArabic/non.jpg
+    - assets/images/AlpaArabic/haah.jpg
+    - assets/images/AlpaArabic/waw.jpg
+    - assets/images/AlpaArabic/yaa.jpg
+    - assets/images/AlpaArabic/ta2.jpg
+    - assets/images/AlpaArabic/el.jpg
+    - assets/images/AlpaArabic/amza.jpg
+    - assets/images/AlpaArabic/no.jpg
+    - assets/images/NumArabic/zero.jpg
+    - assets/images/NumArabic/one.jpg
+    - assets/images/NumArabic/two.jpg
+    - assets/images/NumArabic/three.jpg
+    - assets/images/NumArabic/four.jpg
+    - assets/images/NumArabic/five.jpg
+    - assets/images/NumArabic/six.jpg
+    - assets/images/NumArabic/seven.jpg
+    - assets/images/NumArabic/eight.jpg
+    - assets/images/NumArabic/nine.jpg
+    - assets/images/NumArabic/ten.jpg
+    - assets/images/NumArabic/eleven.jpg
+    - assets/images/NumArabic/twelev.jpg
+    - assets/images/NumArabic/threeten.jpg
+    - assets/images/NumArabic/fourteen.jpg
+    - assets/images/NumArabic/fiveteen.jpg
+    - assets/images/NumArabic/sixteen.jpg
+    - assets/images/NumArabic/seventeen.jpg
+    - assets/images/NumArabic/eighteen.jpg
+    - assets/images/NumArabic/nineteen.jpg
+    - assets/images/NumArabic/twentey.jpg
+    - assets/images/NumArabic/threety.jpg
+    - assets/images/NumArabic/thosand.jpg
+    - assets/images/NumArabic/thounndzero.jpg
+    - assets/images/NumArabic/thoundtwozero.jpg
+    - assets/images/NumArabic/onetow.jpg
+    - assets/images/NumArabic/onethree.jpg
+    - assets/images/NumArabic/onefour.jpg
+    - assets/images/NumArabic/onefive.jpg
+    - assets/images/NumArabic/onesix.jpg
+    - assets/images/NumArabic/oneseven.jpg
+    - assets/images/NumArabic/oneeight.jpg
+    - assets/images/NumArabic/onenine.jpg
+    - assets/images/NumArabic/oneten.jpg
+    - assets/images/ColorsArabic/
+    - assets/images/colour_cards/
+    - assets/images/Days2(Week)/
+    - assets/images/Days(Week)/
+    - assets/images/alphabets/
+    - assets/images/NumbersEng/
+    - assets/images/intro.jpg
+    - assets/images/Girl.jpg
+    - assets/images/alpaarabic.jpg
+    - assets/images/colorarabic.jpg 
+    - assets/images/numberarabic.jpg
+    - assets/images/shveq.jpg
+    - assets/images/Spong1.jpg
+    - assets/images/QuizArabicAlpa/
+    - assets/images/QuizArabicNum/
+    - assets/images/days.png
+    - assets/images/Boy.jpg
+    - assets/images/ColorEng/
+    - assets/images/DayEng/
+    - assets/images/DayEng2/
+    - assets/images/Alpa.jpg
+    - assets/images/alphabetsEng/
+    - assets/images/Quiz.jpg
+    - assets/images/quizzes/
+    - assets/images/BoyQuiz.jpg
+    - assets/images/Spong3.jpg
+    - assets/images/AlpaLearn.jpg
+    - assets/images/AlpaQuiz.jpg
+    - assets/images/ColorsLearn.jpg
+    - assets/images/ColorsQuiz.jpg
+    - assets/images/DaysLearn.jpg
+    - assets/images/DaysQuiz.jpg
+    - assets/images/NumLearn.jpg
+    - assets/images/NumQuiz.jpg
+    - assets/images/DaysEngLearn.jpg
+    - assets/images/QuizArabic.jpg
+    - assets/images/LearnEng.jpg
+    - assets/images/NumEngNew/
+    - assets/images/IntroQuiz.jpg
+    - assets/images/Cograt.jpg
+    - assets/images/Congrat2.jpg
+    - assets/images/finalImage.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster/Lobster-Regular.ttf
+       
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
