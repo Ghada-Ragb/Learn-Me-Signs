@@ -1,7 +1,7 @@
 # learn_me_signs
 This app learn the deaf mute signs language and # I publish in amazon appStore
 
-![ic_launcher](https://github.com/Ghada-Ragb/Learn-Me-Signs/assets/93228711/38bb68b5-fbe5-41ac-9421-1a3c0eae92f8)
+![signs2](https://github.com/Ghada-Ragb/Learn-Me-Signs/assets/93228711/f59b183d-1183-496a-a7ac-63ceea947d58)
 ![photo_2023-09-08_15-51-18](https://github.com/Ghada-Ragb/Learn-Me-Signs/assets/93228711/d14478eb-86c8-4cac-996c-a399e9cd9763)
 ![photo_2023-09-08_15-51-15](https://github.com/Ghada-Ragb/Learn-Me-Signs/assets/93228711/be04e5bd-d378-4196-bd24-1460492b40cd)
 ![photo_2023-09-08_15-51-14](https://github.com/Ghada-Ragb/Learn-Me-Signs/assets/93228711/5731b5be-1233-40ad-ab3a-af5128751138)
@@ -12,3 +12,4 @@ This app learn the deaf mute signs language and # I publish in amazon appStore
 ![photo_2023-09-08_15-51-07](https://github.com/Ghada-Ragb/Learn-Me-Signs/assets/93228711/82f2ecec-7c10-401f-b171-6d93baafe1b1)
 ![photo_2023-09-08_15-51-05](https://github.com/Ghada-Ragb/Learn-Me-Signs/assets/93228711/8a48db90-1da6-46ca-81ad-a38ea459e9c4)
 ![photo_2023-09-08_15-51-02](https://github.com/Ghada-Ragb/Learn-Me-Signs/assets/93228711/b7afbb16-b38a-48cd-b779-d332267d8a62)
+
